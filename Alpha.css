@@ -1,0 +1,232 @@
+body{
+    font-family: 'Source Sans 3', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-image: url(./images/ProjectBg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 1.5rem ;
+    color: white;
+
+    
+}
+#nav #left li{
+    font-size: 1.2 rem;
+
+}
+#nav #right #list{
+    display: flex;
+    list-style-type: none;
+    
+    /* align-items: center; */
+
+}
+#nav #right ul li{
+    font-size: 1.1rem;
+    padding: 5px 20px;
+
+}
+#nav #right ul li button{
+    width:6rem;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid lightgray;
+    font-size: 1rem;
+
+}
+#nav #left h1 span{
+ font-weight: 100;
+}
+#nav #left h1{
+    font-size: 1.5rem;
+}
+#drop{
+    position: relative;
+}
+#menu{
+    list-style: none;
+    padding: 0px;
+    position: absolute;
+
+    top: 100%;
+    left: -20px;
+    width: 150%;
+    background-color: rgba(255, 255, 255, 0.479);
+    color: black;
+    display: none;
+    
+}
+
+ #drop:hover #menu{
+    display: block;
+
+}
+
+#nav #right #menu li{
+    color:black;
+    border-bottom: 1px solid grey;
+}
+
+#nav #right #menu li:hover{
+    background-color: orangered;
+    color: white;
+}
+
+#sm{
+    position: relative;
+}
+#subm{
+    list-style: none;
+    padding: 0px;
+    position: absolute;
+
+    top: 0%;
+    left: -245px;
+    width: 150%;
+    background-color: rgba(255, 255, 255, 0.479);
+    color: black;
+    display: none;
+}
+
+#sm:hover #subm{
+    display: block;
+
+}
+#alpha{
+    text-align: center;
+    color:white;
+    margin-top: 7rem ;
+    size:  20%;
+}
+#alpha h1{
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 0px ;
+}
+#alpha p{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+
+}
+#alpha button{
+    width: 10%;
+    height: 3rem;
+    border: none;
+    border-radius:8px ;
+    color: gray;
+    margin-right: 1 rem;
+
+}
+ #alpha #b2{
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgba(249, 249, 249, 0.305);
+    
+}
+#intro{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 3rem;
+    margin-top:13rem ;
+    color: grey;
+  
+}
+#intro h1{
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+#intro p{
+    font-size: 1.5rem;
+    border-top: 2px solid lightgray;
+    width: 60%;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+#intro img {
+    width: 100%;
+
+}
+#singup{
+    align-items: center;
+    color: #f9e6df;
+    text-align: center;
+    background-color: #E89980;
+    padding: 2rem;
+    display: block;
+}
+#singup h2{
+    margin-top: 0px;
+    font-size:2.5rem;
+    line-height: 1.5em;
+    letter-spacing: -0.035em;
+}
+#singup{
+    margin-top: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 3.5rem;
+}
+#singup input{
+    height: 3rem;
+    width: 16rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #ffffff26;
+    outline-color:white ;
+}
+#singup input::placeholder{
+    padding-left:1rem ;
+}
+#singup button{
+    height: 3rem;
+    border-radius: 8px;
+    color: #E89980;
+    border: none;
+    width: 8rem;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+}
+#social{
+    background-color: lightgray;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+#social ul{
+    
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+#social ul li i{
+    padding-right: 1rem;
+    font-size: 2rem;
+    margin-left: 1rem;
+    color: #999999;
+}
+#social #txt{
+    color: #999999;
+}
+
+
+/* #intro div{
+    background-color: white;
+    width: 70%;
+
+} */
